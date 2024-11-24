@@ -24,6 +24,14 @@
       "version": "1.0.0",
       "source": "builtin"
     },
+    "com.unity.ads@4.4.2": {
+      "name": "com.unity.ads",
+      "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.ads",
+      "fingerprint": "a7b997f68a1d40387ca4d33fc75578709c140a37",
+      "editorCompatibility": "2018.4.18f1",
+      "version": "4.4.2",
+      "source": "registry"
+    },
     "com.unity.ai.navigation@2.0.4": {
       "name": "com.unity.ai.navigation",
       "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.ai.navigation",
@@ -32,20 +40,20 @@
       "version": "2.0.4",
       "source": "registry"
     },
+    "com.unity.analytics@3.8.1": {
+      "name": "com.unity.analytics",
+      "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.analytics",
+      "fingerprint": "6cc66d58ac08950316d3b86a26c92187aca1ddb0",
+      "editorCompatibility": "2019.3.0a1",
+      "version": "3.8.1",
+      "source": "registry"
+    },
     "com.unity.collab-proxy@2.5.2": {
       "name": "com.unity.collab-proxy",
       "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.collab-proxy",
       "fingerprint": "da7e55b87e08569f31766e7cabc37bc033c9c7f9",
       "editorCompatibility": "2020.3.48f1",
       "version": "2.5.2",
-      "source": "registry"
-    },
-    "com.unity.ext.nunit@2.0.5": {
-      "name": "com.unity.ext.nunit",
-      "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.ext.nunit",
-      "fingerprint": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
-      "editorCompatibility": "2019.4.0a1",
-      "version": "2.0.5",
       "source": "registry"
     },
     "com.unity.ide.rider@3.0.31": {
@@ -64,22 +72,6 @@
       "version": "2.0.22",
       "source": "registry"
     },
-    "com.unity.ide.vscode@1.2.5": {
-      "name": "com.unity.ide.vscode",
-      "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.ide.vscode",
-      "fingerprint": "82e68656b7bdc5da8beb1fbaf1bb4ecf13456d51",
-      "editorCompatibility": "2019.2.0a12",
-      "version": "1.2.5",
-      "source": "registry"
-    },
-    "com.unity.inputsystem@1.11.1": {
-      "name": "com.unity.inputsystem",
-      "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.inputsystem",
-      "fingerprint": "f32e50d372b38a6a40f5382ad8ab0d11ac27b67d",
-      "editorCompatibility": "2019.4.0a1",
-      "version": "1.11.1",
-      "source": "registry"
-    },
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.multiplayer.center",
@@ -87,6 +79,14 @@
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
       "source": "builtin"
+    },
+    "com.unity.purchasing@4.12.2": {
+      "name": "com.unity.purchasing",
+      "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.purchasing",
+      "fingerprint": "649c6c7b3b1b6277839041f4987c0a1e66176678",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "4.12.2",
+      "source": "registry"
     },
     "com.unity.test-framework@1.4.5": {
       "name": "com.unity.test-framework",
@@ -111,6 +111,14 @@
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin"
+    },
+    "com.unity.xr.legacyinputhelpers@2.1.11": {
+      "name": "com.unity.xr.legacyinputhelpers",
+      "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers",
+      "fingerprint": "a3936666e06871a5fd0461a69a4d99efb31a21c1",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.1.11",
+      "source": "registry"
     },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
@@ -315,6 +323,38 @@
       "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin"
+    },
+    "com.unity.ext.nunit@2.0.5": {
+      "name": "com.unity.ext.nunit",
+      "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.ext.nunit",
+      "fingerprint": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.5",
+      "source": "registry"
+    },
+    "com.unity.services.core@1.13.0": {
+      "name": "com.unity.services.core",
+      "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.services.core",
+      "fingerprint": "ebe452e552b92964f64e438bdc2e6a7d850c66cc",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "1.13.0",
+      "source": "registry"
+    },
+    "com.unity.services.analytics@6.0.1": {
+      "name": "com.unity.services.analytics",
+      "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.services.analytics",
+      "fingerprint": "f7e249983920dd67eba8952b09e37a6fe4582dd0",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "6.0.1",
+      "source": "registry"
+    },
+    "com.unity.nuget.newtonsoft-json@3.2.1": {
+      "name": "com.unity.nuget.newtonsoft-json",
+      "resolvedPath": "C:\\Users\\User\\OneDrive - Ariel University\\Desktop\\אוניברסיטה\\GameDev\\Week3_Assignment_Ron\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json",
+      "fingerprint": "74deb55db2a0c29ddfda576608bcb86abbd13ee6",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "3.2.1",
+      "source": "registry"
     }
   }
 }
