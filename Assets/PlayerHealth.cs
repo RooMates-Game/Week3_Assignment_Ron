@@ -1,53 +1,32 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] private int maxHealth = 3; // Maximum health
-    [SerializeField] private Image[] hearts; // Heart images in the UI
-    [SerializeField] private string gameOverScene = "level-game-over"; // Game Over scene name
+    [SerializeField] private int maxHealth = 3; // Maximum health (e.g., 3 hearts)
+    private int currentHealth; // Player's current health
 
-    private int currentHealth;
-
-    private void Start()
+    void Start()
     {
-        currentHealth = maxHealth; // Initialize health
-        UpdateHearts(); // Update UI on start
+        currentHealth = maxHealth; // Set current health to max at the start of the game
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void TakeDamage(int damage)
     {
-        if (collision.gameObject.CompareTag("Enemy")) // Check collision with enemy
-        {
-            TakeDamage(1); // Reduce health by 1
-            Destroy(collision.gameObject); // Destroy the enemy
-        }
-    }
+        currentHealth -= damage; // Decrease health by the damage value
 
-    private void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-        UpdateHearts();
+        // Update UI (e.g., remove a heart)
+        Debug.Log($"Player took {damage} damage! Current health: {currentHealth}");
 
         if (currentHealth <= 0)
         {
-            SceneManager.LoadScene(gameOverScene); // Load Game Over scene
+            Debug.Log("Player health is zero. Game over!");
+            SceneManager.LoadScene("level-game-over"); // Load Game Over scene
         }
     }
 
-    private void UpdateHearts()
+    public int GetCurrentHealth()
     {
-        for (int i = 0; i < hearts.Length; i++)
-        {
-            if (i < currentHealth)
-            {
-                hearts[i].enabled = true; // Show heart
-            }
-            else
-            {
-                hearts[i].enabled = false; // Hide heart
-            }
-        }
+        return currentHealth; // Getter method for accessing current health if needed elsewhere
     }
 }

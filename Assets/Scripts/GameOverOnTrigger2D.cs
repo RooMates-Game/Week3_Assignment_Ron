@@ -1,22 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameOverOnTrigger2D : MonoBehaviour
 {
     [Tooltip("Every object tagged with this tag will trigger game over")]
-    [SerializeField] string triggeringTag;
+    [SerializeField] private string triggeringTag;
 
-    private void OnTriggerEnter2D(Collider2D other) {
-        if (other.tag == triggeringTag && enabled) {
-            Debug.Log("Game over!");
-            Application.Quit();
-            UnityEditor.EditorApplication.isPlaying = false;  // Error on editor 2021.3
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag(triggeringTag) && enabled)
+        {
+            if (other.CompareTag("Player")) // If the player is involved in the collision
+            {
+                PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
+                if (playerHealth != null)
+                {
+                    // Use the health system instead of directly quitting the game
+                    playerHealth.TakeDamage(1);
+                }
+            }
         }
     }
-
-    private void Update() {
-        /* Just to show the enabled checkbox in Editor */
-    }
-
 }
