@@ -1,3 +1,15 @@
+
+# Assigment 3
+I did branch No. 3 - changing game's boundries
+I did this with the script of `WrapAroundHorizontal` and `RestrictVerticalMovement`
+The feature I added is the `BoostDirection`: when the player collects this boost, his left & right directions swap which making a hard and fun time to the game!
+
+
+
+
+
+
+
 # Unity week 2: Formal elements
 
 A project with step-by-step scenes illustrating some of the formal elements of game development in Unity, including: 
