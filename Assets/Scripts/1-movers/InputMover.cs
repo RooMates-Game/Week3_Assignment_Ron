@@ -9,7 +9,8 @@ public class InputMover : MonoBehaviour
     [Tooltip("Speed of movement, in meters per second")]
     [SerializeField] float speed = 10f;
 
-    [SerializeField] InputAction move = new InputAction(
+    [SerializeField] 
+    InputAction move = new InputAction(
         type: InputActionType.Value, expectedControlType: nameof(Vector2));
 
     void OnEnable()
