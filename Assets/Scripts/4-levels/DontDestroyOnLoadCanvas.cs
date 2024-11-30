@@ -8,7 +8,7 @@ public class DontDestroyOnLoadCanvas : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-        private void OnLevelWasLoaded(int level)
+    private void OnLevelWasLoaded(int level)
     {
         if (SceneManager.GetActiveScene().name == "level-game-over" || SceneManager.GetActiveScene().name == "level-win") 
         {
