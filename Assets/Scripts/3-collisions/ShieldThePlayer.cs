@@ -11,11 +11,13 @@ public class ShieldThePlayer : MonoBehaviour
         {
             Debug.Log("Shield triggered by player");
             var destroyComponent = other.GetComponent<DestroyOnTrigger2D>();
-            if (destroyComponent) {
+            if (destroyComponent)
+            {
                 ShieldTemporarily(destroyComponent);
                 Destroy(this.gameObject);  // Destroy the shield itself - to prevent double-use
             }
-        } else
+        }
+        else
         {
             Debug.Log("Shield triggered by " + other.name);
         }

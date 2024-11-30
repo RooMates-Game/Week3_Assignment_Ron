@@ -10,7 +10,7 @@ public class DontDestroyOnLoadCanvas : MonoBehaviour
 
     private void OnLevelWasLoaded(int level)
     {
-        if (SceneManager.GetActiveScene().name == "level-game-over" || SceneManager.GetActiveScene().name == "level-win") 
+        if (SceneManager.GetActiveScene().name == "level-game-over" || SceneManager.GetActiveScene().name == "level-win")
         {
             Destroy(gameObject); // Destroy the Canvas when Game Over or Win scene is loaded
         }
